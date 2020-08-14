@@ -50,10 +50,11 @@ class FocusOutFilter(QObject):
         #print(widget)
         if event.type() == QEvent.FocusOut:
             self.focusOut.emit()
-            return False
-        else:
-            return False
-            
+        #    return False
+        #else:
+        #    return False
+        return False
+
 class KeyPressFilter(QObject):
     f2_pressed = pyqtSignal()
     #app = ''
@@ -92,10 +93,7 @@ class KeyPressFilter(QObject):
         else:
             return False
         
-class TimeLineGraphicsScene(QtGui.QGraphicsScene):
-    pass
-    #def __init__(self):
-    #    su
+
 class TimeLineWidget(QtGui.QWidget):
     pass
     #self.scene=TimeLineScene(
