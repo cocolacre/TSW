@@ -10,4 +10,6 @@ Just some code for my personal task organizer.
 Я активно пользуюсь данной программой длительное время.  
 Код выложен для демонстации и не сможет быть запущен на вашей машине - здесь не хватает некоторых файлов.
 Основной файл TSW1.py
-![alt text](https://i.imgur.com/UqI1e9v.png)
+![alt text](https://i.imgur.com/UqI1e9v.png)  
+
+![alt text](https://i.imgur.com/57D5EPJ.png)  
